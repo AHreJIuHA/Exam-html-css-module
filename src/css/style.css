@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background: #FAF4F2;
+    font-family: 'Poppins', sans-serif;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header{
+    height: 100px;
+    width: 100%;
+}
+header p{
+    padding: 36px 0 0 22px;
+    color: #F9F9F9;
+    font-size: 18px;
+    font-weight: 500;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Main ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Introduce ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.introduce{
+    display: flex;
+    justify-content: space-between;
+}
+.introduce h3{
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+    padding: 12px 0 7px 32px;
+    width:500px;
+}
+.introduce p {
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 0 54px 32px;
+    width: 535px;
+}
+.social_media{
+    display: flex;
+    gap: 16px;
+    height: 48px;
+    padding-left: 32px;
+    margin-bottom: 25px;
+}
+.social_media img{
+    width: 48px;
+    height: 48px;
+}
+.buttons{
+    width: 334px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 32px;
+}
+.send_button, .download_button{
+    font-family: inherit;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.send_button{
+    width: 151px;
+    background: #FF2950;
+    color: #F9F9F9;
+}
+.download_button{
+    width: 153px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+}
+.photo{
+    width: 406px;
+    height: 406px;
+    margin-right: 26px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Achievements ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.achievements{
+    height: 519px;
+    border-radius: 35px;
+    background: #FF7315;
+    margin: 125px auto;
+    display: flex;
+}
+.transparent_image img{
+    width: 430px;
+    height: 329px;
+    margin: 93px 32px 97px 32px;
+}
+.successes{
+    height: 519px;
+    width: 646px;
+}
+.successes h3{
+    color: #F9F9F9;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 62px;
+}
+.successes p{
+    width: 570px;
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.successes h3:first-of-type{
+    margin: 62px 0 16px 0;
+}
+.successes h3:last-of-type{
+    font-size: 48px;
+    margin: 19px 0 19px 0;
+}
+.achievements p:last-of-type{
+    line-height: 45px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Skills ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.skills h3{
+    color: #222;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 100px;
+}
+.card_wrapper{
+    display: flex;
+    gap: 60px;
+}
+.skills_card{
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.skills_card_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 34, 0.10);
+}
+.skills_card h6{
+    color: #222;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 51px 0 12px 0;
+}
+.skills_card p{
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Portfolio ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.portfolio h3{
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    text-transform: capitalize;
+    margin: 125px 0 64px 0;
+}
+.project_examples{
+    display: grid;
+    margin: 0 81px 173px 81px;
+    grid-template-columns: 310px 310px 310px;
+    grid-template-rows: 300px 300px;
+    grid-template-areas:
+    'example_1 example_2 example_3'
+    'example_4 example_5 example_6';
+    grid-column-gap: 24px;
+    grid-row-gap: 24px
+}
+.example_1{
+    grid-area: example_1;
+}
+.example_2{
+    grid-area: example_2;
+}
+.example_3{
+    grid-area: example_3;
+}
+.example_4{
+    grid-area: example_4;
+}
+.example_5{
+    grid-area: example_5;
+}
+.example_6{
+    grid-area: example_6;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Addition ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#background_addition{
+    height: 643px;
+    width: 100%;
+    background: #FF7315;
+    position: absolute;
+    top: 2784px;
+    left: 0;
+    z-index: -1;
+}
+.addition h3{
+    margin: 0 auto;
+    text-align: center;
+    width: 609px;
+    color: #F9F9F9;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.addition_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 111px;
+}
+.rectangle{
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    background: #F9F9F9;
+}
+.rectangle p{
+    width: 419px;
+    color: #222;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 24px 55px 0 55px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Tariff plans ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.tariff_plans h3{
+    margin: 310px 0 64px 0;
+    text-align: center;
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 59px;
+    text-transform: capitalize;
+}
+.tariff_plan_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.tariff_plans_card{
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+}
+.tariff_plans_card h6{
+    width: 335px;
+    height: 66px;
+    text-align: center;
+    align-content: center;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    color: #F9F9F9;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%;
+    text-transform: capitalize;
+}
+.tariff_plans_card h5{
+    color: #2B2B2B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-transform: capitalize;
+    margin: 36px 0 29px 0;
+}
+.tariff_plans_card span{
+    color: #2B2B2B;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    opacity: 0.5;
+    margin: 11px 0 5px 12px;
+}
+.tariff_plans_card ul{
+    padding-inline-start: 48px;
+}
+.tariff_plans_card ul li{
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.tariff_plans_card ul li::before{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../icons/Check.svg");
+    margin-right: 16px;
+}
+.silver_tariff_plan ul li:nth-child(n+3){
+    opacity: 0.5;
+}
+.silver_tariff_plan ul li:nth-child(n+3)::before{
+    background-image: url("../icons/Close.svg");
+}
+.gold_tariff_plan ul li:nth-child(n+5){
+    opacity: 0.5;
+}
+.gold_tariff_plan ul li:nth-child(n+5)::before{
+    background-image: url("../icons/Close.svg");
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Send email ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.send_email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    height: 224px;
+    margin: 100px 15px 125px 15px;
+    border-radius: 25px;
+    background: #FF7315;
+}
+.send_email h4{
+    width: 343px;
+    color: #F9F9F9;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-left: 75px;
+}
+.send_email button{
+    font-family: inherit;
+    width: 259px;
+    height: 70px;
+    border-radius: 10px;
+    background: #F9F9F9;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.01);
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 100px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Blog ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.blog h3{
+    color: #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+}
+.blog_cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 0 125px 0;
+}
+.blog_card{
+    width: 270px;
+    height: 364px;
+    border-radius: 15px;
+    background: #F9F9F9;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+}
+.blog_card img{
+    width: 242px;
+    height: 166px;
+    border-radius: 15px;
+    margin: 15px 14px 24px 14px;
+}
+.blog_card h6{
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin: 0 0 12px 16px;
+}
+.blog_card p{
+    width: 240px;
+    height: 70px;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin-left: 14px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer{
+    width: 100%;
+    height: 170px;
+    background: #F1F1F1;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    align-content: center;
+}
